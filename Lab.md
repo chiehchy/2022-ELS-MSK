@@ -20,7 +20,7 @@ num.replica.fetchers=2
 socket.request.max.bytes=104857600
 unclean.leader.election.enable=true
 ```
-3. Create a t2.micro EC2 as a kafak client
+3. Create a t2.micro EC2 as a kafka client
 
 
 
