@@ -51,9 +51,9 @@ for i in range(10000000):
     print(str)
 ```
 2. Running code for 3 minutes and stop it, then wait about 5 minutes and use console-consummer to consume data from beginning.
-
+```
 ./kafka-console-consumer.sh --bootstrap-server <BrokerList> --topic els-test --from-beginning
-
+```
 
 
 Questions:
