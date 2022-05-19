@@ -1,6 +1,6 @@
 # **2022 ELS - MSK**
 
-## Lab prerequisite
+## Environment setup
 
 1. Create a MSK cluster
 
