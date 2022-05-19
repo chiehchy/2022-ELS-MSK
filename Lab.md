@@ -6,8 +6,6 @@
 
 * t2.micro brokers * 3
 * 10 GB for each brokers
-* t2.micro EC2 client * 1
-
 
 
 2. Apply below parameters to the cluster
@@ -22,7 +20,7 @@ num.replica.fetchers=2
 socket.request.max.bytes=104857600
 unclean.leader.election.enable=true
 ```
-
+3. Create a t2.micro EC2 as a kafak client
 
 
 
