@@ -127,5 +127,5 @@ Questions:
 
 1. Do you observe any partition been migrated to the new broker in step3? 
 - If yes, why?
-- If no, how to move the partition to the new broker?
+- If no, how to move the partitions to the new broker?
 
