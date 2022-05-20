@@ -115,7 +115,7 @@ Questions:
 ```
 
 
-2. Add one more broker through AWS MSK console
+2. Add one more broker per AZ through AWS MSK console
 
 3. Describe the same topic again after the new broker has been added to the MSK cluster.
 ```
