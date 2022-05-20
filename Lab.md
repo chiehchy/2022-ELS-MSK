@@ -49,14 +49,14 @@ producer = KafkaProducer(bootstrap_servers='<BrokerList>'
 for i in range(10000000):
     key=random.randint(0,99)
     value=random.randint(0,99)
-    future=producer.send('els-test',{key:value},timestamp_ms=0)
+    future=producer.send('msk-topic-2',{key:value},timestamp_ms=0)
     record_metadata = future.get(timeout=10)
     str = 'key:{0},value:{1},topic:{2},partition:{3},offset:{4}'.format(key,value,record_metadata.topic,record_metadata.partition,record_metadata.offset)
     print(str)
 ```
 2. Running code for 3 minutes and stop it, then wait about 5 minutes and use console-consummer to consume data from beginning.
 ```
-./kafka-console-consumer.sh --bootstrap-server <BrokerList> --topic els-test --from-beginning
+./kafka-console-consumer.sh --bootstrap-server <BrokerList> --topic msk-topic-2 --from-beginning
 ```
 
 
