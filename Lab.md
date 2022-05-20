@@ -23,7 +23,7 @@ unclean.leader.election.enable=true
 3. Create a t2.micro EC2 as a kafka client
 ```
 curl -O https://bootstrap.pypa.io/pip/2.7/get-pip.py
-pip install kafka
+pip install kafka-python
 ```
 
 
