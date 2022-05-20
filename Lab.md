@@ -21,10 +21,12 @@ socket.request.max.bytes=104857600
 unclean.leader.election.enable=true
 ```
 3. Create a t2.micro EC2 as a kafka client
+4. Install pip and kafka-python
 ```
 curl -O https://bootstrap.pypa.io/pip/2.7/get-pip.py
 pip install kafka-python
 ```
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-linux.html
 
 
 
