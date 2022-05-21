@@ -4,7 +4,7 @@
 
 1. Create a MSK cluster
 
-* t2.micro brokers * 3
+* t2.small brokers * 3
 * 10 GB for each brokers
 
 
